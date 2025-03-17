@@ -20,4 +20,11 @@ class Settings(BaseSettings):
     TT_VALIDATION_SPLIT: float = 0.1
     TT_TEST_SPLIT: float = 0.1
 
+    # Catboost model params
+    CB_ITERATIONS: int = 500
+    CB_LEARNING_RATE: float = 0.05
+    CB_DEPTH: int = 6
+    CB_EARLY_STOPPING_ROUNDS: int = 50
+
+
 settings = Settings()

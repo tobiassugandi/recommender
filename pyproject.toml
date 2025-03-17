@@ -18,9 +18,12 @@ dependencies = [
     "tensorflow==2.14",
     "tensorflow-recommenders>=0.7.2",
     "tensorflow-datasets>=4.9.8",
+    "catboost>=1.2.7",
 ]
 
 [dependency-groups]
 dev = [
+    "ipython>=9.0.2",
+    "ipywidgets>=8.1.5",
     "tensorflow-metal>=1.2.0",
 ]
