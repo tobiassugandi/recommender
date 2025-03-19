@@ -43,7 +43,7 @@ class Transformer(object):
         inputs = inputs["instances"][0]
 
         # Extract customer_id from inputs
-        user_id = inputs["user_id"]
+        user_id = inputs["customer_id"]
 
         # Search for neighbors in the candidate index
         neighbors = self.candidate_index.find_neighbors(
