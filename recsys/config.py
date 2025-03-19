@@ -26,5 +26,7 @@ class Settings(BaseSettings):
     CB_DEPTH: int = 6
     CB_EARLY_STOPPING_ROUNDS: int = 50
 
+    RANKING_MODEL_TYPE: str = "ranking"
+    QUERY_MODEL_TYPE: str = "query"
 
 settings = Settings()
