@@ -12,7 +12,7 @@ class Settings(BaseSettings):
 
     # Two-Tower model params
     TT_BATCH_SIZE: int = 128
-    TT_EPOCHS: int = 10
+    TT_EPOCHS: int = 2
     TT_LEARNING_RATE: float = 0.005
     TT_L2_REG: float = 0.001
     TT_WEIGHT_DECAY: float = 0.001
